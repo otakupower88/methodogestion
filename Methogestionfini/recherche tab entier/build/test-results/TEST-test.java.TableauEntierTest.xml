@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.java.TableauEntierTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2015-11-25T11:46:36" hostname="r20014" time="0.008">
+  <properties/>
+  <testcase name="testTabRecherche" classname="test.java.TableauEntierTest" time="0.008"/>
+  <system-out><![CDATA[Ce nombre n'existe pas dans le tableau
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

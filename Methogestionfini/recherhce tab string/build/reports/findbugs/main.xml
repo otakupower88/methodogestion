@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1448452214932" analysisTimestamp="1448452214956" release="">
+  <Project projectName="">
+    <Jar>/home/usager/11401107/Documents/s3/methodologie_gestion/methodologieprojet/build/classes/main/main/java/Test.class</Jar>
+    <Jar>/home/usager/11401107/Documents/s3/methodologie_gestion/methodologieprojet/build/classes/main/main/java/TableauString.class</Jar>
+    <SrcDir>/home/usager/11401107/Documents/s3/methodologie_gestion/methodologieprojet/src/main/java/TableauString.java</SrcDir>
+    <SrcDir>/home/usager/11401107/Documents/s3/methodologie_gestion/methodologieprojet/src/main/java/Test.java</SrcDir>
+  </Project>
+  <BugInstance type="IM_AVERAGE_COMPUTATION_COULD_OVERFLOW" priority="2" rank="17" abbrev="IM" category="STYLE">
+    <Class classname="main.java.TableauString">
+      <SourceLine classname="main.java.TableauString" start="3" end="36" sourcefile="TableauString.java" sourcepath="main/java/TableauString.java"/>
+    </Class>
+    <Method classname="main.java.TableauString" name="rechercheDicho" signature="([Ljava/lang/String;Ljava/lang/String;)I" isStatic="false">
+      <SourceLine classname="main.java.TableauString" start="13" end="36" startBytecode="0" endBytecode="300" sourcefile="TableauString.java" sourcepath="main/java/TableauString.java"/>
+    </Method>
+    <SourceLine classname="main.java.TableauString" start="19" end="19" startBytecode="28" endBytecode="28" sourcefile="TableauString.java" sourcepath="main/java/TableauString.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 25 Nov 2015 12:50:14 +0100" total_classes="2" referenced_classes="13" total_bugs="1" total_size="27" num_packages="1" java_version="1.8.0_45" vm_version="25.45-b02" cpu_seconds="3.07" clock_seconds="1.55" peak_mbytes="99.67" alloc_mbytes="880.00" gc_seconds="0.04" priority_2="1">
+    <PackageStats package="main.java" total_bugs="1" total_types="2" total_size="27" priority_2="1">
+      <ClassStats class="main.java.TableauString" sourceFile="TableauString.java" interface="false" size="18" bugs="1" priority_2="1"/>
+      <ClassStats class="main.java.Test" sourceFile="Test.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="321" invocations="336" avgMicrosecondsPerInvocation="955" maxMicrosecondsPerInvocation="27072" standardDeviationMircosecondsPerInvocation="2743"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="73" invocations="13" avgMicrosecondsPerInvocation="5633" maxMicrosecondsPerInvocation="26122" standardDeviationMircosecondsPerInvocation="7065"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="64" invocations="304" avgMicrosecondsPerInvocation="211" maxMicrosecondsPerInvocation="13269" standardDeviationMircosecondsPerInvocation="867"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="47" invocations="13" avgMicrosecondsPerInvocation="3638" maxMicrosecondsPerInvocation="12080" standardDeviationMircosecondsPerInvocation="4172"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="46" invocations="63" avgMicrosecondsPerInvocation="735" maxMicrosecondsPerInvocation="5803" standardDeviationMircosecondsPerInvocation="932"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="41" invocations="4" avgMicrosecondsPerInvocation="10476" maxMicrosecondsPerInvocation="39812" standardDeviationMircosecondsPerInvocation="16946"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="39" invocations="28" avgMicrosecondsPerInvocation="1396" maxMicrosecondsPerInvocation="21963" standardDeviationMircosecondsPerInvocation="4229"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="32" invocations="4" avgMicrosecondsPerInvocation="8145" maxMicrosecondsPerInvocation="17588" standardDeviationMircosecondsPerInvocation="7511"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="29" invocations="4" avgMicrosecondsPerInvocation="7449" maxMicrosecondsPerInvocation="15078" standardDeviationMircosecondsPerInvocation="5884"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="28" invocations="4" avgMicrosecondsPerInvocation="7005" maxMicrosecondsPerInvocation="26563" standardDeviationMircosecondsPerInvocation="11297"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="27" invocations="4" avgMicrosecondsPerInvocation="6855" maxMicrosecondsPerInvocation="25043" standardDeviationMircosecondsPerInvocation="10510"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="21" invocations="4" avgMicrosecondsPerInvocation="5303" maxMicrosecondsPerInvocation="11273" standardDeviationMircosecondsPerInvocation="5188"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="21" invocations="337" avgMicrosecondsPerInvocation="62" maxMicrosecondsPerInvocation="1322" standardDeviationMircosecondsPerInvocation="116"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="20" invocations="13" avgMicrosecondsPerInvocation="1558" maxMicrosecondsPerInvocation="7730" standardDeviationMircosecondsPerInvocation="2052"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="20" invocations="13" avgMicrosecondsPerInvocation="1552" maxMicrosecondsPerInvocation="12497" standardDeviationMircosecondsPerInvocation="3245"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

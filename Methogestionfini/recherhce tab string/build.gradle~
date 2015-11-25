@@ -1,0 +1,28 @@
+apply plugin:'java'
+apply plugin:'eclipse'
+
+repositories{
+	mavenCentral()
+}
+
+dependencies{
+	testCompile group:'junit',name:'junit',version:'4.+'
+}
+
+test {
+	systemProperties 'property':'value'
+}
+
+jacocoTestReport{
+	reports{
+		xml.enable false
+		csv.enable false
+		html.destination "${buildDir}/jacococHtml"
+	}
+}
+
+findbugs{
+	toolVersion="3.0.1"
+	effort= "max"
+	reportLevel="low"
+}

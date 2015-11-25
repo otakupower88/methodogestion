@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1448450626115" analysisTimestamp="1448450626147" release="">
+  <Project projectName="">
+    <Jar>/home/usager/11405537/workspace/Gestion/build/classes/test/test/java/TableauTest.class</Jar>
+    <Jar>/home/usager/11405537/workspace/Gestion/build/classes/test/test/java/MainTest.class</Jar>
+    <Jar>/home/usager/11405537/workspace/Gestion/build/classes/test/test/java/TabEntierTest.class</Jar>
+    <Jar>/home/usager/11405537/workspace/Gestion/build/classes/test/test/java/TabStringTest.class</Jar>
+    <Jar>/home/usager/11405537/workspace/Gestion/build/classes/test/test/java/MenuTest.class</Jar>
+    <AuxClasspathEntry>/home/usager/11405537/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/usager/11405537/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar</AuxClasspathEntry>
+    <SrcDir>/home/usager/11405537/workspace/Gestion/src/test/java/TableauTest.java</SrcDir>
+    <SrcDir>/home/usager/11405537/workspace/Gestion/src/test/java/MainTest.java</SrcDir>
+    <SrcDir>/home/usager/11405537/workspace/Gestion/src/test/java/TabStringTest.java</SrcDir>
+    <SrcDir>/home/usager/11405537/workspace/Gestion/src/test/java/MenuTest.java</SrcDir>
+    <SrcDir>/home/usager/11405537/workspace/Gestion/src/test/java/TabEntierTest.java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 25 Nov 2015 12:23:46 +0100" total_classes="5" referenced_classes="16" total_bugs="0" total_size="30" num_packages="1" java_version="1.8.0_45" vm_version="25.45-b02" cpu_seconds="3.07" clock_seconds="1.59" peak_mbytes="97.47" alloc_mbytes="880.00" gc_seconds="0.03">
+    <PackageStats package="test.java" total_bugs="0" total_types="5" total_size="30">
+      <ClassStats class="test.java.MainTest" sourceFile="MainTest.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="test.java.MenuTest" sourceFile="MenuTest.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="test.java.TabEntierTest" sourceFile="TabEntierTest.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="test.java.TabStringTest" sourceFile="TabStringTest.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="test.java.TableauTest" sourceFile="TableauTest.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="380" invocations="309" avgMicrosecondsPerInvocation="1232" maxMicrosecondsPerInvocation="23086" standardDeviationMircosecondsPerInvocation="3049"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="89" invocations="16" avgMicrosecondsPerInvocation="5619" maxMicrosecondsPerInvocation="24020" standardDeviationMircosecondsPerInvocation="8046"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="64" invocations="31" avgMicrosecondsPerInvocation="2088" maxMicrosecondsPerInvocation="32825" standardDeviationMircosecondsPerInvocation="6165"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="61" invocations="67" avgMicrosecondsPerInvocation="921" maxMicrosecondsPerInvocation="8070" standardDeviationMircosecondsPerInvocation="1725"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="55" invocations="277" avgMicrosecondsPerInvocation="200" maxMicrosecondsPerInvocation="4110" standardDeviationMircosecondsPerInvocation="431"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="54" invocations="10" avgMicrosecondsPerInvocation="5478" maxMicrosecondsPerInvocation="53151" standardDeviationMircosecondsPerInvocation="15894"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="46" invocations="16" avgMicrosecondsPerInvocation="2937" maxMicrosecondsPerInvocation="26271" standardDeviationMircosecondsPerInvocation="6385"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="34" invocations="16" avgMicrosecondsPerInvocation="2156" maxMicrosecondsPerInvocation="9667" standardDeviationMircosecondsPerInvocation="3075"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="31" invocations="310" avgMicrosecondsPerInvocation="101" maxMicrosecondsPerInvocation="2934" standardDeviationMircosecondsPerInvocation="243"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="22" invocations="16" avgMicrosecondsPerInvocation="1406" maxMicrosecondsPerInvocation="12699" standardDeviationMircosecondsPerInvocation="3112"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

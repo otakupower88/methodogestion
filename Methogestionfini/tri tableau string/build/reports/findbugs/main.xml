@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1448452853406" analysisTimestamp="1448452853438" release="">
+  <Project projectName="">
+    <Jar>/home/usager/11405537/workspace/Gestion/build/classes/main/main/java/TableauEntier.class</Jar>
+    <Jar>/home/usager/11405537/workspace/Gestion/build/classes/main/main/java/Menu.class</Jar>
+    <Jar>/home/usager/11405537/workspace/Gestion/build/classes/main/main/java/TabEntier.class</Jar>
+    <Jar>/home/usager/11405537/workspace/Gestion/build/classes/main/main/java/Tableau.class</Jar>
+    <Jar>/home/usager/11405537/workspace/Gestion/build/classes/main/main/java/TabString.class</Jar>
+    <Jar>/home/usager/11405537/workspace/Gestion/build/classes/main/main/java/MethoGestion.class</Jar>
+    <Jar>/home/usager/11405537/workspace/Gestion/build/classes/main/main/java/Main.class</Jar>
+    <Jar>/home/usager/11405537/workspace/Gestion/build/classes/main/main/java/TableauString.class</Jar>
+    <SrcDir>/home/usager/11405537/workspace/Gestion/src/main/java/MethoGestion.java</SrcDir>
+    <SrcDir>/home/usager/11405537/workspace/Gestion/src/main/java/TableauString.java</SrcDir>
+    <SrcDir>/home/usager/11405537/workspace/Gestion/src/main/java/TabString.java</SrcDir>
+    <SrcDir>/home/usager/11405537/workspace/Gestion/src/main/java/Main.java</SrcDir>
+    <SrcDir>/home/usager/11405537/workspace/Gestion/src/main/java/Tableau.java</SrcDir>
+    <SrcDir>/home/usager/11405537/workspace/Gestion/src/main/java/TableauEntier.java</SrcDir>
+    <SrcDir>/home/usager/11405537/workspace/Gestion/src/main/java/Menu.java</SrcDir>
+    <SrcDir>/home/usager/11405537/workspace/Gestion/src/main/java/TabEntier.java</SrcDir>
+  </Project>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N">
+    <Class classname="main.java.Menu">
+      <SourceLine classname="main.java.Menu" start="8" end="76" sourcefile="Menu.java" sourcepath="main/java/Menu.java"/>
+    </Class>
+    <Method classname="main.java.Menu" name="&lt;init&gt;" signature="()V" isStatic="false">
+      <SourceLine classname="main.java.Menu" start="8" end="76" startBytecode="0" endBytecode="891" sourcefile="Menu.java" sourcepath="main/java/Menu.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="563" end="564" startBytecode="0" endBytecode="43" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+    </Method>
+    <SourceLine classname="main.java.Menu" start="14" end="14" startBytecode="29" endBytecode="29" sourcefile="Menu.java" sourcepath="main/java/Menu.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 25 Nov 2015 13:00:53 +0100" total_classes="8" referenced_classes="23" total_bugs="1" total_size="162" num_packages="1" java_version="1.8.0_45" vm_version="25.45-b02" cpu_seconds="3.84" clock_seconds="2.00" peak_mbytes="99.82" alloc_mbytes="880.00" gc_seconds="0.05" priority_1="1">
+    <PackageStats package="main.java" total_bugs="1" total_types="8" total_size="162" priority_1="1">
+      <ClassStats class="main.java.Main" sourceFile="Main.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="main.java.Menu" sourceFile="Menu.java" interface="false" size="54" bugs="1" priority_1="1"/>
+      <ClassStats class="main.java.MethoGestion" sourceFile="MethoGestion.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="main.java.TabEntier" sourceFile="TabEntier.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="main.java.TabString" sourceFile="TabString.java" interface="false" size="25" bugs="0"/>
+      <ClassStats class="main.java.Tableau" sourceFile="Tableau.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="main.java.TableauEntier" sourceFile="TableauEntier.java" interface="false" size="26" bugs="0"/>
+      <ClassStats class="main.java.TableauString" sourceFile="TableauString.java" interface="false" size="3" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="284" invocations="374" avgMicrosecondsPerInvocation="760" maxMicrosecondsPerInvocation="20759" standardDeviationMircosecondsPerInvocation="1841"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="126" invocations="23" avgMicrosecondsPerInvocation="5495" maxMicrosecondsPerInvocation="46363" standardDeviationMircosecondsPerInvocation="10586"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="77" invocations="23" avgMicrosecondsPerInvocation="3353" maxMicrosecondsPerInvocation="32642" standardDeviationMircosecondsPerInvocation="6950"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="69" invocations="340" avgMicrosecondsPerInvocation="205" maxMicrosecondsPerInvocation="8317" standardDeviationMircosecondsPerInvocation="648"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="58" invocations="28" avgMicrosecondsPerInvocation="2097" maxMicrosecondsPerInvocation="23069" standardDeviationMircosecondsPerInvocation="4670"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.StreamResourceTracker" totalMilliseconds="58" invocations="15" avgMicrosecondsPerInvocation="3882" maxMicrosecondsPerInvocation="14592" standardDeviationMircosecondsPerInvocation="3884"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="55" invocations="112" avgMicrosecondsPerInvocation="493" maxMicrosecondsPerInvocation="5735" standardDeviationMircosecondsPerInvocation="906"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="51" invocations="45" avgMicrosecondsPerInvocation="1148" maxMicrosecondsPerInvocation="22192" standardDeviationMircosecondsPerInvocation="3531"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="50" invocations="28" avgMicrosecondsPerInvocation="1794" maxMicrosecondsPerInvocation="38574" standardDeviationMircosecondsPerInvocation="7141"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="44" invocations="28" avgMicrosecondsPerInvocation="1600" maxMicrosecondsPerInvocation="9584" standardDeviationMircosecondsPerInvocation="2715"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="41" invocations="23" avgMicrosecondsPerInvocation="1806" maxMicrosecondsPerInvocation="11884" standardDeviationMircosecondsPerInvocation="2970"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="40" invocations="28" avgMicrosecondsPerInvocation="1429" maxMicrosecondsPerInvocation="13507" standardDeviationMircosecondsPerInvocation="2910"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="37" invocations="23" avgMicrosecondsPerInvocation="1620" maxMicrosecondsPerInvocation="13073" standardDeviationMircosecondsPerInvocation="3195"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="36" invocations="23" avgMicrosecondsPerInvocation="1604" maxMicrosecondsPerInvocation="13548" standardDeviationMircosecondsPerInvocation="3191"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine" totalMilliseconds="35" invocations="347" avgMicrosecondsPerInvocation="101" maxMicrosecondsPerInvocation="25048" standardDeviationMircosecondsPerInvocation="1368"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="35" invocations="377" avgMicrosecondsPerInvocation="93" maxMicrosecondsPerInvocation="2008" standardDeviationMircosecondsPerInvocation="222"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindUselessObjects" totalMilliseconds="26" invocations="8" avgMicrosecondsPerInvocation="3335" maxMicrosecondsPerInvocation="14158" standardDeviationMircosecondsPerInvocation="5284"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="25" invocations="23" avgMicrosecondsPerInvocation="1095" maxMicrosecondsPerInvocation="8823" standardDeviationMircosecondsPerInvocation="2003"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="24" invocations="8" avgMicrosecondsPerInvocation="3019" maxMicrosecondsPerInvocation="12251" standardDeviationMircosecondsPerInvocation="4882"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="23" invocations="23" avgMicrosecondsPerInvocation="1024" maxMicrosecondsPerInvocation="4374" standardDeviationMircosecondsPerInvocation="1361"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

@@ -1,3 +1,4 @@
+package main.java;
 import java.lang.Math;
 
 public class TableauEntier {
@@ -30,17 +31,31 @@ public class TableauEntier {
 		}
 	}
 	
-	public int tabRecherche(int[] tab, int taille, int a){
-		int i;
-		for(i=0;i<taille;i++){
-			if(tab[i] == a){
-				System.out.println("Le nombre que vous cherchez existe il est à la place : " + i  );
-				return 0;
+	public boolean tabRecherche(int[] tab,int taille, int val){
+		boolean trouve;
+		int id;
+		int im;
+
+		trouve=false;
+		id=0;
+
+		while(!trouve && ((taille -id)>1)){
+			im=(id+taille)/2;
+			trouve=(tab[im]==val);
+					if(tab[im]>val){
+				taille=im;
+			}else{
+				id=im;
 			}
 		}
+		if(tab[id]==val){
+					System.out.println("Le nombre que vous cherchez existe il est à la place : " + id  );
+					return true;
+			}else{
 		
-	 System.out.println("Ce nombre n'existe pas dans le tableau");
-	 return 0;
+	 			System.out.println("Ce nombre n'existe pas dans le tableau");
+			}
+	 return false;
 	
 	}
 }
