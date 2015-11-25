@@ -1,6 +1,7 @@
 
 public class Tableau {
 	
+<<<<<<< HEAD
 	private Object[] tab;
 	
 	public Tableau(){
@@ -26,4 +27,10 @@ public class Tableau {
 	public void setTab(Object tab[]) {
 		this.tab = tab;
 	}
+=======
+	
+	
+
+
+>>>>>>> 8ffdba97671bba65eefcf4ed81bb8934dd03613d
 }
